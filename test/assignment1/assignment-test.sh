@@ -5,7 +5,7 @@ source script-helpers
 SCRIPTS_DIR=$(pwd)
 SOURCE_DIR=$(realpath ${SCRIPTS_DIR}/../../../)
 
-pushd ${SOURCE_DIR}/finder-app
+pushd ${SOURCE_DIR}/finder-app 
 
 ./writer.sh
 rc=$?
